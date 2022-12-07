@@ -1,6 +1,13 @@
+package palindrome;/*
+ *
+ * @author Lawshiga
+ *
+ */
+
 import java.util.Scanner;
 
-public class Palindrome {
+
+public class Application {
     public static void main(String[] args) {
         // mom, dad, race car, nurses run
 
@@ -27,3 +34,4 @@ public class Palindrome {
         }
     }
 }
+
