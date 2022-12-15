@@ -7,6 +7,7 @@ package fibonacci;/*
 public class Fibonacci {
     // problem with this algorithm is we keep recalculating the fibonacci number
     // number of calculations it needs to do increases exponentially as the number becomes larger
+    // even if we redo the calcuations we aren't saving it somewhere so that we can access it later
     public static void main(String[] args) {
         int n = 50; // took so long
         System.out.println(fibonacci(n));
